@@ -117,8 +117,18 @@ Aktuelle Praxis im GC-HBOC ist das Abfragen der Herkunft der Vorfahren vor Anwen
 Grundsätzlich wäre aber auch ein Abstammungs-Check auf Grundlage der Genotypen der zur Verfügung stehenden, verbreiteten genomischen Varianten und ihren bekannter Weise erwarteten Allel-Frequenzen möglich.
 
 
+# Appendix
 
-## Referenzen
+## GATK HapltypeCaller
+
+Beispielaufruf mit gatk v4.2.3
+
+```
+gatk HaplotypeCaller -I <sample>.bam -R <path/to/reference>.fa -O <sample>.vcf -L BCAC_313_PRS_regions.bed --alleles BCAC_313_PRS.vcf.gz --dbsnp BCAC_313_PRS.vcf.gz
+```
+
+
+# Referenzen
 
 [1]	Carver, T. et al. CanRisk Tool—A Web Interface for the Prediction of Breast and 	Ovarian Cancer Risk and the Likelihood of Carrying Genetic Pathogenic Variants. 	Cancer Epidemiol Biomarkers Prev (2020).
 
