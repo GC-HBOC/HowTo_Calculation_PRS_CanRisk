@@ -127,6 +127,15 @@ Beispielaufruf mit gatk v4.2.3
 gatk HaplotypeCaller -I <sample>.bam -R <path/to/reference>.fa -O <sample>.vcf -L BCAC_313_PRS_regions.bed --alleles BCAC_313_PRS.vcf.gz --dbsnp BCAC_313_PRS.vcf.gz
 ```
 
+## freebayes
+
+Beispielaufruf mit freebayes 1.3.3
+
+```
+freebayes -f <path/to/reference>.fa --variant-input BCAC_313_PRS.vcf.gz --only-use-input-alleles -t BCAC_313_PRS_regions.bed <sample>.bam
+```
+
+freebayes returns not only the variants in the input VCF, but all variants. Thus, some post-processing might be necessary, like breaking multi-allelic variants and removing variants that were not part of the input variant list.
 
 # Referenzen
 
