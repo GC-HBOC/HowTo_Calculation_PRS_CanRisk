@@ -137,6 +137,16 @@ freebayes -f <path/to/reference>.fa --variant-input BCAC_313_PRS.vcf.gz --only-u
 
 freebayes returns not only the variants in the input VCF, but all variants. Thus, some post-processing might be necessary, like breaking multi-allelic variants and removing variants that were not part of the input variant list.
 
+## Strelka
+
+Beispielaufruf mit Strelka v2.9.2
+
+```
+python2 path/to/configureStrelkaGermlineWorkflow.py --bam <sample>.bam --forcedGT BCAC_313_PRS.vcf.gz --targeted --referenceFasta <path/to/refrence> --runDir <path/to/workdir>
+
+python2 <path/to/workdir/>runWorkflow.py -m local -j <#nodes>
+```
+
 # Referenzen
 
 [1]	Carver, T. et al. CanRisk Tool—A Web Interface for the Prediction of Breast and 	Ovarian Cancer Risk and the Likelihood of Carrying Genetic Pathogenic Variants. 	Cancer Epidemiol Biomarkers Prev (2020).
