@@ -1,4 +1,4 @@
-# SOP: Erstellung CanRisk-konformer VCF-Dateien für die PRS-Berechnung
+# HowTo: Erstellung CanRisk-konformer VCF-Dateien für die PRS-Berechnung
 
 ## 1 Hintergrund & Zielsetzung
 
