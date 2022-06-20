@@ -34,7 +34,7 @@ Diese Option wird von den Varianten-Callern FreeBayes [6] (https://github.com/fr
 
 Die zu genotypisierenden PRS-Loci werden bei den genannten Tools mittels Angabe einer (komprimierten) VCF-Datei mit dem Programmaufruf definiert. 
 Zur Einsparung von Ressourcen ist es außerdem empfehlenswert, die genomischen Zielregionen einzugrenzen, d.h., das Varianten-Calling mittels einer BED-Datei (http://genome.cse.ucsc.edu/FAQ/FAQformat.html#format1) auf jene Regionen zu beschränken, in denen SNPs genotypisiert werden sollen. 
-Entsprechende kompatible VCF- und (komprimierte) BED-Dateien für diese Zwecke werden von der AG Bioinformatik zur Verfügung gestellt. **ToDo**
+Entsprechende kompatible VCF- und (komprimierte) BED-Dateien für diese Zwecke werden von der AG Bioinformatik zur Verfügung gestellt.
 
 
 Die für die PRS-Berechnung mit CanRisk zu betrachtenden Allele sind in komma-separierten Textdateien (CSV-Dateiformat) spezifiziert und können hier
