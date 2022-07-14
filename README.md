@@ -91,9 +91,9 @@ VCF-Datei (Minimal-Beispiel):
 
 ```
 ##fileformat=VCFv4.3
-#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	Sample
-1	7917076 . G A .	.	.	GT:DS	./.:0.3911
-1	10566215  . A G . . .	GT:DS	./.:0.3291
+#CHROM  POS ID  REF ALT QUAL  FILTER  INFO  FORMAT  Sample
+1 7917076 . G A . . . GT:DS ./.:0.3911
+1 10566215  . A G . . . GT:DS ./.:0.3291
 …
 ```
 
