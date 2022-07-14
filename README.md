@@ -52,9 +52,9 @@ Das CanRisk-Webtool erwartet die Angabe von Referenz- und Effekt-Allelen wie in 
 Die Allele sind hier im wesentlichen links-normalisiert [9], dies trifft aber nicht auf alle Loci zu, wie etwa
 
 ```
-#Name,Chromosome,Position,Reference_Allele,Effect_Allele,effect_allele_frequency,log_odds_ratio
-4_84370124_TAA_TA,4,84370124,TAA,TA,0.5353,-0.0464
-22_38583315_AAAAG_AAAAGAAAG,22,38583315,AAAAG,AAAAGAAAG,0.2819,-0.0471
+Chromosome,Position,Reference_Allele,Effect_Allele,Effect_Allele_Frequency,Log_Odds_Ratio
+4,84370124,TAA,TA,0.5353,-0.0464
+22,38583315,AAAAG,AAAAGAAAG,0.2819,-0.0471
 ```
 
 Die links-normalisierten Allele TA/T und A/AAAG müssten daher in der VCF-Datei entsprechend ersetzt werden, dies kann manuell vorgenommen werden oder mithilfe eines Inhouse-Skripts. 
@@ -79,21 +79,21 @@ Kann ein für die PRS-Berechnung benötigter Locus nicht oder nicht mit ausreich
 &ast;.prs-Datei:
 
 ```
-#alpha = 0.444
-#Name,Chromosome,Position,Reference_Allele,Effect_Allele,effect_allele_frequency,
-log_odds_ratio
-1_100880328_A_T,1,100880328,A,T,0.4100,0.0373
-1_10566215_A_G,1,10566215,A,G,0.3291,-0.0586
+alpha = 0.439
+Chromosome,Position,Reference_Allele,Effect_Allele,Effect_Allele_Frequency,Log_Odds
+_Ratio
+1,7917076,G,A,0.3911,-0.0409
+1,10566215,A,G,0.3291,-0.0586
 …
 ```
 
-VCF-Datei (Minimal-Beispiel, sortiert):
+VCF-Datei (Minimal-Beispiel):
 
 ```
 ##fileformat=VCFv4.3
 #CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	Sample
-1	10566215	A	T	.	.	.	DS	0.6582
-1	100880328	A	T	.	.	.	DS	0.8200
+1	7917076	G	A	.	.	.	GT:DS	./.:0.3911
+1	10566215	A	G	.	.	.	GT:DS	./.:0.3291
 …
 ```
 
