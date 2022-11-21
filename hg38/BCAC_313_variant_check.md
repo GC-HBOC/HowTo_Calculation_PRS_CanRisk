@@ -13,10 +13,10 @@ The following variant have low mappability when using 200mer (single end):
 
 The following variants are not in gnomAD:
 
-* chr2:217091173 GA>G - AC0 variant in gnomAD with 0% AF - should be removed?!
-* chr5:58945885 C>T - at end of 5 base deletion with 70% AF - change to deletion?
-* chr6:87094101 T>C - at end of 23 base deletion with 38% AF - change to deletion?
-* chr17:30841059 G>T - at start of 4 base MNP (GAGT>TCCA) - change to MNP if pipeline reports MNPs!
+* chr2:217091173 GA>G (AF=0.0364) - AC0 variant in gnomAD with 0% AF - should be removed?!
+* chr5:58945885 C>T (AF=0.5762, Mavaddat only) - at end of 5 base deletion with 70% AF - change to deletion?
+* chr6:87094101 T>C (AF=0.2809) - at end of 23 base deletion with 38% AF - change to deletion?
+* chr17:30841059 G>T (AF=0.2573) - at start of 4 base MNP (GAGT>TCCA) - change to MNP if pipeline reports MNPs!
 
 
 # comparison to WGS samples
@@ -31,8 +31,8 @@ The following variants were not found in 866 WGS samples (megSAP pipeline Tübin
 
 These variants were found way too often for the given gnomAD frequency for europeans (NFE):
 
-* chr10:38234698 C>A - found 353 times but AF 0.00025 - low complexity region with warning in gnomAD - should be removed?!
-* chr2:9998855 T>C	found 104 times but AF 0.00846 - completely chaotic region with warning in gnomAD - should be removed?!
+* chr10:38234698 C>A (AF=0.374) - found 353 times but AF 0.00025 - low complexity region with warning in gnomAD - should be removed?!
+* chr2:9998855 T>C (AF=0.1168, Mavaddat only)	found 104 times but AF 0.00846 - completely chaotic region with warning in gnomAD - should be removed?!
 
 
 # not covered in custom Twist exome
