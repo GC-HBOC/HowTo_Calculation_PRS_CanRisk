@@ -14,8 +14,8 @@ The following variant have low mappability when using 200mer (single end):
 The following variants are not in gnomAD:
 
 * chr2:217091173 GA>G (AF=0.0364) - AC0 variant in gnomAD with 0% AF - should be removed?!
-* chr5:58945885 C>T (AF=0.5762, Mavaddat only) - at end of 5 base deletion with 70% AF - change to deletion?
-* chr6:87094101 T>C (AF=0.2809) - at end of 23 base deletion with 38% AF - change to deletion?
+* chr5:58945885 C>T (AF=0.5762, Mavaddat only) - at end of [5 base deletion](https://gnomad.broadinstitute.org/variant/5-58945880-TAAATC-T?dataset=gnomad_r3) with 70% AF - change to deletion?
+* chr6:87094101 T>C (AF=0.2809) - at end of [23 base deletion](https://gnomad.broadinstitute.org/variant/6-87094078-CAGAAACTTTAAAAGATTCCTTTT-C?dataset=gnomad_r3) with 38% AF - change to deletion?
 * chr17:30841059 G>T (AF=0.2573) - at start of 4 base MNP (GAGT>TCCA) - change to MNP if pipeline reports MNPs!
 
 
