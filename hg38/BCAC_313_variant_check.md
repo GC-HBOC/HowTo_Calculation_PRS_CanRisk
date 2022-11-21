@@ -21,7 +21,7 @@ The following variants are not in gnomAD:
 
 # comparison to WGS samples
 
-The following variants were not found in 550 WGS samples (megSAP pipeline Tübingen using BWA-mem2, ABRA2, freebayes):
+The following variants were not found in 866 WGS samples (megSAP pipeline TÃ¼bingen using BWA-mem2, ABRA2, freebayes):
 
 * chr2:217091173 GA>G	0	0
 * chr5:58945885 C>T	0	0
@@ -29,15 +29,15 @@ The following variants were not found in 550 WGS samples (megSAP pipeline Tübing
 
 **Note: they are the same in 'not in gnomAD'**
 
-These variants were found way too often for the given gnomAD frequency:
+These variants were found way too often for the given gnomAD frequency for europeans (NFE):
 
-* chr10:38234698 C>A - found 353 times but AF 0.00034 - low complexity region with warning in gnomAD - should be removed?!
-* chr2:9998855 T>C	found 104 times but AF 0.00717 - completely chaotic region with warning in gnomAD - should be removed?!
+* chr10:38234698 C>A - found 353 times but AF 0.00025 - low complexity region with warning in gnomAD - should be removed?!
+* chr2:9998855 T>C	found 104 times but AF 0.00846 - completely chaotic region with warning in gnomAD - should be removed?!
 
 
 # not covered in custom Twist exome
 
-31 of the 313 variants are not covered with at lease 20x (avg coverage 100x) although in design of Twist custom exome V2 (Tübingen):
+31 of the 313 variants are not covered with at lease 20x (avg coverage 100x) although in design of Twist custom exome V2 (TÃ¼bingen):
 
 * chr1	7857010	7857021
 * chr1	113903252	113903263
