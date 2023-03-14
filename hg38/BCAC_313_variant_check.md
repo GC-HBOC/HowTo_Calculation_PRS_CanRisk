@@ -37,7 +37,7 @@ These variants were found way too often for the given gnomAD frequency for europ
 
 # not covered in custom Twist exome
 
-31 of the 313 variants are not covered with at lease 20x (avg coverage 100x) although in design of Twist custom exome V2 (Tübingen):
+31 of the 313 variants are not covered with 20x (avg coverage 100x) although in design of Twist custom exome V2 (Tübingen):
 
 * chr1	7857010	7857021
 * chr1	113903252	113903263
